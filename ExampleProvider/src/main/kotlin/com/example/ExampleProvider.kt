@@ -8,7 +8,7 @@ import com.lagradost.cloudstream3.SearchResponse
 class ExampleProvider(val plugin: TestPlugin) : MainAPI() { // all providers must be an intstance of MainAPI
     override var mainUrl = "https://tuktukcinema.com/" 
     override var name = "TukTuk Cinema"
-    override val supportedTypes = setOf(TvType.Series)
+    override val supportedTypes = setOf(TvType.Anime)
 
     override var lang = "en"
 
